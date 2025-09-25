@@ -1,6 +1,6 @@
 # PLC2025
 
-##C Hugo Gameiro Gomes, A100056
+## Hugo Gameiro Gomes, A100056
 
 ![identificação](identificacao.jpeg)
 
