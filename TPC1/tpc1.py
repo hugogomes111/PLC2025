@@ -9,8 +9,6 @@ expressao = r"^(?!.*011)[01]*$"
  
 def testar():
     pattern = re.compile(expressao)
-    
-    # Casos que devem fazer match
     casos = ["010101", "111111", "000000", "0101101", "011", "1100110"]
     
     for caso in casos:
