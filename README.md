@@ -17,3 +17,4 @@ do curso de **LCC** no ano letivo **2025/26**.
 
 ### 📝 Trabalhos Práticos
 - [TPC1](./TPC1/)
+- [TPC2](./TPC2/)
