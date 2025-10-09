@@ -12,4 +12,5 @@ Este diretório contém a resolução do **TPC2** da cadeira de *Processamento d
 
 ### 📂 Ficheiros
 
+- [📌 Enunciado do trabalho(tpc2.pdf)](./tpc2.pdf)
 - [📌 Código fonte (tpc2.py)](./tpc2.py)
