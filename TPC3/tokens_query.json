@@ -1,0 +1,66 @@
+[
+    {
+        "id": "SELECT",
+        "expreg": "select"
+    },
+    {
+        "id": "WHERE",
+        "expreg": "where"
+    },
+    {
+        "id": "LIMIT",
+        "expreg": "LIMIT"
+    },
+    {
+        "id": "A",
+        "expreg": "a"
+    },
+    {
+        "id": "VAR",
+        "expreg": "\\?[a-zA-Z_][a-zA-Z0-9_]*"
+    },
+    {
+        "id": "STRING",
+        "expreg": "\"[^\"]*\""
+    },
+    {
+        "id": "ID_NS",
+        "expreg": "[a-zA-Z_][a-zA-Z0-9_]*:[a-zA-Z_][a-zA-Z0-9_]*"
+    },
+    {
+        "id": "ID",
+        "expreg": "[a-zA-Z_][a-zA-Z0-9_]*"
+    },
+    {
+        "id": "INT",
+        "expreg": "\\d+"
+    },
+    {
+        "id": "LBRACE",
+        "expreg": "\\{"
+    },
+    {
+        "id": "RBRACE",
+        "expreg": "\\}"
+    },
+    {
+        "id": "DOT",
+        "expreg": "\\."
+    },
+    {
+        "id": "AT",
+        "expreg": "@"
+    },
+    {
+        "id": "SKIP",
+        "expreg": "[ \\t]"
+    },
+    {
+        "id": "NEWLINE",
+        "expreg": "\\n"
+    },
+    {
+        "id": "ERRO",
+        "expreg": "."
+    }
+]

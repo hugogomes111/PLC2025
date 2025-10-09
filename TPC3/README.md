@@ -13,4 +13,4 @@ Este diretório contém a resolução do **TPC3** da cadeira de *Processamento d
 ### 📂 Ficheiros
 
 - [📌 Enunciado do trabalho (tpc3.pdf)](./tpc3.pdf)
-- [📌 Código fonte (tpc3.py)](./tpc3.py)
+- [📌 Código fonte (tokens_query.json)](./tokens_query.json)

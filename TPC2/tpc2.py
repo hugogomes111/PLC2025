@@ -1,60 +1,6 @@
 # Criar em Python um pequeno conversor de MarkDown para HTML para os elementos descritos na "Basic Syntax" da Cheat Sheet:
 
 
-
-# EXERCICIO 1
-
-'''
-Cabeçalhos: linhas iniciadas por "# texto", ou "## texto" ou "### texto"
-
-In: `# Exemplo`
-Out: `<h1>Exemplo</h1>`
-
-
-
-Bold: pedaços de texto entre "**":
-
-In: `Este é um **exemplo** ...`
-Out: `Este é um <b>exemplo</b> ...`
-
-
-
-Itálico: pedaços de texto entre "*":
-
-In: `Este é um *exemplo* ...`
-Out: `Este é um <i>exemplo</i> ...`
-
-
-
-Lista numerada:
-
-In:
-1. Primeiro item
-2. Segundo item
-3. Terceiro item
-Out:
-<ol>
-<li>Primeiro item</li>
-<li>Segundo item</li>
-<li>Terceiro item</li>
-</ol>
-
-
-Link: [texto](endereço URL)
-
-In: `Como pode ser consultado em [página da UC](http://www.uc.pt)`
-Out: `Como pode ser consultado em <a href="http://www.uc.pt">página da UC</a>`
-
-
-
-Imagem: ![texto alternativo](path para a imagem)
-
-In: Como se vê na imagem seguinte: `![imagem dum coelho](http://www.coellho.com) ...`
-Out: `Como se vê na imagem seguinte: <img src="http://www.coellho.com" alt="imagem dum coelho"/> ...`
-
-'''
-
-
 def markdown_to_html(markdown_text):
     html_text = markdown_text
     # Cabeçalhos
@@ -90,7 +36,10 @@ def markdown_to_html(markdown_text):
         html_text = html_text[:start_alt] + html_img + html_text[end_src + 1:]
     return html_text        
 
+
+
 # Exemplo de uso
+
 markdown_example = '''# Exemplo de Cabeçalho 1          
 ## Exemplo de Cabeçalho 2
 ### Exemplo de Cabeçalho 3  
